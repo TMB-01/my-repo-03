@@ -1,0 +1,27 @@
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    .card{
+        width: 23%;
+        background-color: white;
+        img{
+            width: 100%;
+        }
+        .text{
+            padding: 1px 10px;
+            .description{
+                font-weight: bold;
+            }
+        }
+    }
+}

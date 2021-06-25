@@ -1,0 +1,36 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .card {
+  width: 23%;
+  background-color: white;
+}
+
+.wrapper .card img {
+  width: 100%;
+}
+
+.wrapper .card .text {
+  padding: 1px 10px;
+}
+
+.wrapper .card .text .description {
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
